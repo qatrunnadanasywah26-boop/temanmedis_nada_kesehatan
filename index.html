@@ -277,3 +277,41 @@
         </div>
 
     </section>
+
+        <!-- CHECK -->
+    <section class="check-section" id="check">
+
+        <div class="section-title reveal">
+            <span>HEALTH CHECK</span>
+            <h2>Cek Kondisi Sederhana</h2>
+            <p>Jawab beberapa pertanyaan berikut.</p>
+        </div>
+
+        <div class="check-box reveal">
+
+            <label>Bagaimana kondisi tubuhmu hari ini?</label>
+
+            <select id="condition">
+                <option value="">-- Pilih kondisi --</option>
+                <option value="baik">Saya merasa baik 😊</option>
+                <option value="lelah">Saya merasa lelah 😴</option>
+                <option value="kurang">Saya kurang sehat 🤒</option>
+            </select>
+
+            <label>Apakah kamu sudah cukup minum?</label>
+
+            <select id="water">
+                <option value="">-- Pilih jawaban --</option>
+                <option value="yes">Sudah 💧</option>
+                <option value="no">Belum</option>
+            </select>
+
+            <button class="btn primary full" onclick="checkHealth()">
+                Cek Sekarang ✨
+            </button>
+
+            <div id="result"></div>
+
+        </div>
+
+    </section>
