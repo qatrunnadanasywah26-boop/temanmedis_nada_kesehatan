@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TEMANMEDIS - Kontak</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="loader" id="loader">
+
+        <div class="loader-heart">
+            ♥
+        </div>
+
+        <p>
+            Menyiapkan TEMANMEDIS...
+        </p>
+
+    </div>
+
+
+    <header>
+
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+                <span>♡</span> TEMANMEDIS
+            </a>
+
+
+            <div class="nav-menu" id="navMenu">
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="info.html">
+                    Info
+                </a>
+
+                <a href="tips.html">
+                    Tips
+                </a>
+
+                <a href="mental.html">
+                    Mental Health
+                </a>
+
+                <a href="check.html">
+                    Cek Kesehatan
+                </a>
+
+                <a href="contact.html" class="active">
+                    Kontak
+                </a>
+
+            </div>
+
+
+            <div class="nav-buttons">
+
+                <button
+                    class="theme-btn"
+                    id="themeBtn">
+                    ☾
+                </button>
+
+                <button
+                    class="menu-btn"
+                    id="menuBtn">
+                    ☰
+                </button>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <section class="contact-section">
+
+            <div class="contact-text reveal">
+
+                <span>
+                    CONTACT
+                </span>
+
+                <h2>
+                    Ada Pertanyaan?
+                </h2>
+
+                <p>
+                    Punya pertanyaan, saran, atau ingin
+                    memberikan masukan?
+                    Kirim pesan melalui form di samping.
+                </p>
+
+            </div>
+
+
+            <form
+                class="contact-form reveal"
+                onsubmit="sendMessage(event)">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Nama kamu"
+                    required>
+
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Email kamu"
+                    required>
+
+
+                <textarea
+                    id="message"
+                    placeholder="Tulis pesan..."
+                    required></textarea>
+
+
+                <button
+                    class="btn primary"
+                    type="submit">
+
+                    Kirim Pesan 💌
+
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="footer-logo">
+            ♡ TEMANMEDIS
+        </div>
+
+        <p>
+            Website edukasi kesehatan untuk membantu
+            kamu menjalani hidup yang lebih sehat.
+        </p>
+
+        <small>
+            © 2026 TEMANMEDIS. Made with ♡
+        </small>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

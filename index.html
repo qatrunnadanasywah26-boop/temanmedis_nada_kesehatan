@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TEMANMEDIS - Your Health Companion</title>
+
+    <title>TEMANMEDIS - Home</title>
 
     <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -20,367 +25,269 @@
         <p>Menyiapkan TEMANMEDIS...</p>
     </div>
 
+
     <!-- NAVBAR -->
     <header>
         <nav class="navbar">
 
-            <a href="#home" class="logo">
+            <a href="index.html" class="logo">
                 <span>♡</span> TEMANMEDIS
             </a>
 
             <div class="nav-menu" id="navMenu">
-                <a href="#home" class="active">Home</a>
-                <a href="#info">Info</a>
-                <a href="#tips">Tips</a>
-                <a href="#mental">Mental Health</a>
-                <a href="#check">Cek Kesehatan</a>
-                <a href="#contact">Kontak</a>
+
+                <a href="index.html" class="active">Home</a>
+
+                <a href="info.html">Info</a>
+
+                <a href="tips.html">Tips</a>
+
+                <a href="mental.html">Mental Health</a>
+
+                <a href="check.html">Cek Kesehatan</a>
+
+                <a href="contact.html">Kontak</a>
+
             </div>
 
             <div class="nav-buttons">
-                <button class="theme-btn" id="themeBtn">☾</button>
-                <button class="menu-btn" id="menuBtn">☰</button>
+
+                <button
+                    class="theme-btn"
+                    id="themeBtn"
+                    aria-label="Ganti tema">
+                    ☾
+                </button>
+
+                <button
+                    class="menu-btn"
+                    id="menuBtn"
+                    aria-label="Buka menu">
+                    ☰
+                </button>
+
             </div>
 
         </nav>
     </header>
 
 
+    <!-- HERO -->
+    <main>
 
+        <section class="hero">
 
-    <!-- HOME -->
-    <section class="hero" id="home">
+            <div class="hero-text reveal">
 
-        <div class="hero-text reveal">
+                <span class="badge">
+                    💗 HEALTH & WELLNESS
+                </span>
 
-            <span class="badge">💗 HEALTH & WELLNESS</span>
+                <h1>
+                    Hidup Sehat,
+                    <span>Mulai Hari Ini.</span>
+                </h1>
 
-            <h1>
-                Hidup Sehat,
-                <span>Mulai Hari Ini.</span>
-            </h1>
+                <p>
+                    Temukan informasi kesehatan, tips hidup sehat,
+                    dan cara menjaga kesehatan tubuh serta pikiran
+                    dalam satu tempat.
+                </p>
 
-            <p>
-                Temukan informasi kesehatan, tips hidup sehat,
-                dan cara menjaga kesehatan tubuh serta pikiran
-                dalam satu tempat.
-            </p>
+                <div class="hero-buttons">
 
-            <div class="hero-buttons">
-                <a href="#info" class="btn primary">Jelajahi Sekarang →</a>
-                <a href="#check" class="btn secondary">Cek Kesehatan</a>
-            </div>
+                    <a href="info.html" class="btn primary">
+                        Jelajahi Sekarang →
+                    </a>
 
-            <div class="mini-stats">
-                <div>
-                    <strong>100+</strong>
-                    <span>Tips Sehat</span>
+                    <a href="check.html" class="btn secondary">
+                        Cek Kesehatan
+                    </a>
+
                 </div>
 
-                <div>
-                    <strong>50+</strong>
-                    <span>Artikel</span>
+                <div class="mini-stats">
+
+                    <div>
+                        <strong>100+</strong>
+                        <span>Tips Sehat</span>
+                    </div>
+
+                    <div>
+                        <strong>50+</strong>
+                        <span>Artikel</span>
+                    </div>
+
+                    <div>
+                        <strong>24/7</strong>
+                        <span>Akses Info</span>
+                    </div>
+
                 </div>
 
-                <div>
-                    <strong>24/7</strong>
-                    <span>Akses Info</span>
+            </div>
+
+
+            <div class="hero-card reveal">
+
+                <div class="floating-card card-one">
+                    ❤️
+                    <span>Stay Healthy</span>
                 </div>
-            </div>
 
-        </div>
+                <div class="health-circle">
 
+                    <div class="pulse"></div>
 
-        <div class="hero-card reveal">
+                    <div class="heart">
+                        ♥️
+                    </div>
 
-            <div class="floating-card card-one">
-                ❤️
-                <span>Stay Healthy</span>
-            </div>
-
-            <div class="health-circle">
-                <div class="pulse"></div>
-                <div class="heart">♥️</div>
-            </div>
-
-            <div class="floating-card card-two">
-                🥗
-                <span>Eat Healthy</span>
-            </div>
-
-        </div>
-
-    </section>
-     <!-- FEATURES -->
-    <section class="features">
-
-        <div class="section-title reveal">
-            <span>WHY SEHATARA?</span>
-            <h2>Semua Tentang Kesehatan<br><b>Ada di Sini</b></h2>
-        </div>
-
-        <div class="feature-grid">
-
-            <div class="feature-card reveal">
-                <div class="icon">🩺</div>
-                <h3>Info Kesehatan</h3>
-                <p>Informasi dasar mengenai kesehatan tubuh.</p>
-                <a href="#info">Pelajari →</a>
-            </div>
-
-            <div class="feature-card reveal">
-                <div class="icon">🥗</div>
-                <h3>Tips Sehat</h3>
-                <p>Kebiasaan sederhana untuk hidup lebih sehat.</p>
-                <a href="#tips">Lihat Tips →</a>
-            </div>
-
-            <div class="feature-card reveal">
-                <div class="icon">🧠</div>
-                <h3>Mental Health</h3>
-                <p>Kenali pentingnya menjaga kesehatan mental.</p>
-                <a href="#mental">Pelajari →</a>
-            </div>
-
-            <div class="feature-card reveal">
-                <div class="icon">📋</div>
-                <h3>Cek Kesehatan</h3>
-                <p>Cek sederhana untuk mengenali kondisi tubuh.</p>
-                <a href="#check">Mulai Cek →</a>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- INFO -->
-    <section class="content-section" id="info">
-
-        <div class="section-title reveal">
-            <span>HEALTH INFORMATION</span>
-            <h2>Kenali Tubuhmu</h2>
-            <p>Mengetahui informasi dasar kesehatan dapat membantu kita lebih peduli terhadap tubuh.</p>
-        </div>
-
-        <div class="info-grid">
-
-            <article class="info-card reveal">
-                <div class="info-image">💗</div>
-                <div class="info-content">
-                    <span>Kesehatan</span>
-                    <h3>Jaga Kesehatan Jantung</h3>
-                    <p>Aktif bergerak, makan bergizi, dan tidur cukup merupakan kebiasaan baik.</p>
-                    <button onclick="showInfo('Jantung')">Baca Selengkapnya</button>
                 </div>
-            </article>
 
-            <article class="info-card reveal">
-                <div class="info-image">🧠</div>
-                <div class="info-content">
-                    <span>Mental</span>
-                    <h3>Pentingnya Kesehatan Mental</h3>
-                    <p>Kesehatan mental merupakan bagian penting dari kesehatan secara keseluruhan.</p>
-                    <button onclick="showInfo('Mental')">Baca Selengkapnya</button>
+                <div class="floating-card card-two">
+                    🥗
+                    <span>Eat Healthy</span>
                 </div>
-            </article>
 
-            <article class="info-card reveal">
-                <div class="info-image">😴</div>
-                <div class="info-content">
-                    <span>Istirahat</span>
-                    <h3>Kenapa Tidur Itu Penting?</h3>
-                    <p>Tidur membantu tubuh beristirahat dan memulihkan energi.</p>
-                    <button onclick="showInfo('Tidur')">Baca Selengkapnya</button>
-                </div>
-            </article>
-
-        </div>
-
-    </section>
-    <!-- TIPS -->
-    <section class="tips-section" id="tips">
-
-        <div class="section-title reveal">
-            <span>HEALTHY LIFESTYLE</span>
-            <h2>Tips Hidup Sehat 🌷</h2>
-        </div>
-
-        <div class="tips-container">
-
-            <div class="tip reveal">
-                <span>01</span>
-                <div>
-                    <h3>Minum Air yang Cukup 💧</h3>
-                    <p>Pastikan tubuh mendapatkan cairan yang cukup sepanjang hari.</p>
-                </div>
             </div>
 
-            <div class="tip reveal">
-                <span>02</span>
-                <div>
-                    <h3>Aktif Bergerak 🏃</h3>
-                    <p>Lakukan aktivitas fisik sesuai kemampuan tubuh.</p>
-                </div>
+        </section>
+
+
+        <!-- FEATURES -->
+        <section class="features">
+
+            <div class="section-title reveal">
+
+                <span>WHY TEMANMEDIS?</span>
+
+                <h2>
+                    Semua Tentang Kesehatan
+                    <br>
+                    <b>Ada di Sini</b>
+                </h2>
+
             </div>
 
-            <div class="tip reveal">
-                <span>03</span>
-                <div>
-                    <h3>Makan Bergizi 🥗</h3>
-                    <p>Konsumsi makanan beragam dengan gizi yang seimbang.</p>
+
+            <div class="feature-grid">
+
+                <div class="feature-card reveal">
+
+                    <div class="icon">🩺</div>
+
+                    <h3>
+                        Info Kesehatan
+                    </h3>
+
+                    <p>
+                        Informasi dasar mengenai
+                        kesehatan tubuh.
+                    </p>
+
+                    <a href="info.html">
+                        Pelajari →
+                    </a>
+
                 </div>
+
+
+                <div class="feature-card reveal">
+
+                    <div class="icon">🥗</div>
+
+                    <h3>
+                        Tips Sehat
+                    </h3>
+
+                    <p>
+                        Kebiasaan sederhana untuk
+                        hidup lebih sehat.
+                    </p>
+
+                    <a href="tips.html">
+                        Lihat Tips →
+                    </a>
+
+                </div>
+
+
+                <div class="feature-card reveal">
+
+                    <div class="icon">🧠</div>
+
+                    <h3>
+                        Mental Health
+                    </h3>
+
+                    <p>
+                        Kenali pentingnya menjaga
+                        kesehatan mental.
+                    </p>
+
+                    <a href="mental.html">
+                        Pelajari →
+                    </a>
+
+                </div>
+
+
+                <div class="feature-card reveal">
+
+                    <div class="icon">📋</div>
+
+                    <h3>
+                        Cek Kesehatan
+                    </h3>
+
+                    <p>
+                        Cek sederhana untuk mengenali
+                        kondisi tubuh.
+                    </p>
+
+                    <a href="check.html">
+                        Mulai Cek →
+                    </a>
+
+                </div>
+
             </div>
 
-            <div class="tip reveal">
-                <span>04</span>
-                <div>
-                    <h3>Tidur yang Cukup 😴</h3>
-                    <p>Berikan waktu bagi tubuh untuk beristirahat dan pulih.</p>
-                </div>
-            </div>
+        </section>
 
-        </div>
-
-    </section>
+    </main>
 
 
-
-    <!-- MENTAL HEALTH -->
-    <section class="mental-section" id="mental">
-
-        <div class="mental-text reveal">
-
-            <span class="badge">🧠 MENTAL HEALTH</span>
-
-            <h2>
-                Jangan Lupa,
-                <span>Jaga Pikiranmu.</span>
-            </h2>
-
-            <p>
-                Kesehatan bukan hanya tentang tubuh.
-                Pikiran dan perasaan juga perlu dijaga.
-            </p>
-
-            <button class="btn primary" onclick="mentalMessage()">
-                Temukan Tips Mental Health →
-            </button>
-
-        </div>
-
-        <div class="mental-box reveal">
-            <div class="brain">🧠</div>
-            <h3>Take a Breath</h3>
-            <p>Berhenti sejenak, tarik napas, dan beri dirimu waktu untuk beristirahat.</p>
-            <button onclick="breathingExercise()">Mulai Relaksasi</button>
-        </div>
-
-    </section>
-
-        <!-- CHECK -->
-    <section class="check-section" id="check">
-
-        <div class="section-title reveal">
-            <span>HEALTH CHECK</span>
-            <h2>Cek Kondisi Sederhana</h2>
-            <p>Jawab beberapa pertanyaan berikut.</p>
-        </div>
-
-        <div class="check-box reveal">
-
-            <label>Bagaimana kondisi tubuhmu hari ini?</label>
-
-            <select id="condition">
-                <option value="">-- Pilih kondisi --</option>
-                <option value="baik">Saya merasa baik 😊</option>
-                <option value="lelah">Saya merasa lelah 😴</option>
-                <option value="kurang">Saya kurang sehat 🤒</option>
-            </select>
-
-            <label>Apakah kamu sudah cukup minum?</label>
-
-            <select id="water">
-                <option value="">-- Pilih jawaban --</option>
-                <option value="yes">Sudah 💧</option>
-                <option value="no">Belum</option>
-            </select>
-
-            <button class="btn primary full" onclick="checkHealth()">
-                Cek Sekarang ✨
-            </button>
-
-            <div id="result"></div>
-
-        </div>
-
-    </section>
-<!-- CONTACT -->
-    <section class="contact-section" id="contact">
-
-        <div class="contact-text reveal">
-            <span>CONTACT</span>
-            <h2>Ada Pertanyaan?</h2>
-            <p>Kirim pesan melalui form di samping.</p>
-        </div>
-
-        <form class="contact-form reveal" onsubmit="sendMessage(event)">
-
-            <input type="text" id="name" placeholder="Nama kamu" required>
-
-            <input type="email" placeholder="Email kamu" required>
-
-            <textarea placeholder="Tulis pesan..." required></textarea>
-
-            <button class="btn primary" type="submit">
-                Kirim Pesan 💌
-            </button>
-
-        </form>
-
-    </section>
     <!-- FOOTER -->
     <footer>
 
-        <div class="footer-logo">♡ Sehatara</div>
+        <div class="footer-logo">
+            ♡ TEMANMEDIS
+        </div>
 
         <p>
-            Website edukasi kesehatan untuk membantu kamu
-            menjalani hidup yang lebih sehat.
+            Website edukasi kesehatan untuk membantu
+            kamu menjalani hidup yang lebih sehat.
         </p>
 
         <div class="social">
+
             <button>Instagram</button>
             <button>WhatsApp</button>
             <button>Email</button>
+
         </div>
 
-        <small>© 2026 Sehatara. Made with ♡</small>
+        <small>
+            © 2026 TEMANMEDIS. Made with ♡
+        </small>
 
     </footer>
-  <!-- MODAL -->
-    <div class="modal" id="modal">
-
-        <div class="modal-content">
-
-            <button class="close" onclick="closeModal()">×</button>
-
-            <div id="modalIcon">💗</div>
-
-            <h2 id="modalTitle">Informasi</h2>
-
-            <p id="modalText"></p>
-
-            <button class="btn primary" onclick="closeModal()">
-                Mengerti ✓
-            </button>
-
-        </div>
-
-    </div>
 
 
     <script src="script.js"></script>
 
 </body>
+
 </html>

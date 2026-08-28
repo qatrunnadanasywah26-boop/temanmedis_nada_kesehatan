@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TEMANMEDIS - Info Kesehatan</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="loader" id="loader">
+        <div class="loader-heart">♥</div>
+        <p>Menyiapkan TEMANMEDIS...</p>
+    </div>
+
+
+    <header>
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+                <span>♡</span> TEMANMEDIS
+            </a>
+
+            <div class="nav-menu" id="navMenu">
+
+                <a href="index.html">Home</a>
+                <a href="info.html" class="active">Info</a>
+                <a href="tips.html">Tips</a>
+                <a href="mental.html">Mental Health</a>
+                <a href="check.html">Cek Kesehatan</a>
+                <a href="contact.html">Kontak</a>
+
+            </div>
+
+            <div class="nav-buttons">
+
+                <button class="theme-btn" id="themeBtn">
+                    ☾
+                </button>
+
+                <button class="menu-btn" id="menuBtn">
+                    ☰
+                </button>
+
+            </div>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <section class="content-section">
+
+            <div class="section-title reveal">
+
+                <span>HEALTH INFORMATION</span>
+
+                <h2>
+                    Kenali Tubuhmu
+                </h2>
+
+                <p>
+                    Mengetahui informasi dasar kesehatan
+                    dapat membantu kita lebih peduli terhadap tubuh.
+                </p>
+
+            </div>
+
+
+            <div class="info-grid">
+
+                <article class="info-card reveal">
+
+                    <div class="info-image">
+                        💗
+                    </div>
+
+                    <div class="info-content">
+
+                        <span>Kesehatan</span>
+
+                        <h3>
+                            Jaga Kesehatan Jantung
+                        </h3>
+
+                        <p>
+                            Aktif bergerak, makan bergizi,
+                            dan tidur cukup merupakan kebiasaan baik.
+                        </p>
+
+                        <button onclick="showInfo('Jantung')">
+                            Baca Selengkapnya →
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <article class="info-card reveal">
+
+                    <div class="info-image">
+                        🧠
+                    </div>
+
+                    <div class="info-content">
+
+                        <span>Mental</span>
+
+                        <h3>
+                            Pentingnya Kesehatan Mental
+                        </h3>
+
+                        <p>
+                            Kesehatan mental merupakan bagian
+                            penting dari kesehatan secara keseluruhan.
+                        </p>
+
+                        <button onclick="showInfo('Mental')">
+                            Baca Selengkapnya →
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <article class="info-card reveal">
+
+                    <div class="info-image">
+                        😴
+                    </div>
+
+                    <div class="info-content">
+
+                        <span>Istirahat</span>
+
+                        <h3>
+                            Kenapa Tidur Itu Penting?
+                        </h3>
+
+                        <p>
+                            Tidur membantu tubuh beristirahat
+                            dan memulihkan energi.
+                        </p>
+
+                        <button onclick="showInfo('Tidur')">
+                            Baca Selengkapnya →
+                        </button>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="footer-logo">
+            ♡ TEMANMEDIS
+        </div>
+
+        <p>
+            Website edukasi kesehatan untuk membantu
+            kamu menjalani hidup yang lebih sehat.
+        </p>
+
+        <small>
+            © 2026 TEMANMEDIS. Made with ♡
+        </small>
+
+    </footer>
+
+
+    <!-- MODAL -->
+    <div class="modal" id="modal">
+
+        <div class="modal-content">
+
+            <button
+                class="close"
+                onclick="closeModal()">
+                ×
+            </button>
+
+            <div id="modalIcon">
+                💗
+            </div>
+
+            <h2 id="modalTitle">
+                Informasi
+            </h2>
+
+            <p id="modalText"></p>
+
+            <button
+                class="btn primary"
+                onclick="closeModal()">
+                Mengerti ✓
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
